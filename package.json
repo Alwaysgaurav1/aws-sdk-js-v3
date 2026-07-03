@@ -1,0 +1,12 @@
+{
+  "name": "aws-leak-demo",
+  "version": "1.0.0",
+  "description": "Emulating and fixing the AWS SDK AbortSignal memory leak",
+  "main": "leak_demo.js",
+  "type": "module",
+  "scripts": {
+    "demo:leak": "/Users/gauravkumarpandey/node/bin/node leak_demo.js",
+    "demo:fix": "/Users/gauravkumarpandey/node/bin/node fix_demo.js"
+  },
+  "dependencies": {}
+}
